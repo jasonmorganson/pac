@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "package.json automatic configurator",
   "main": "index.js",
+  "bin": "bin.js",
   "dependencies": {
     "get-package-json-from-github": "^1.2.1",
     "jsonfile": "^4.0.0",
