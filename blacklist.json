@@ -1,0 +1,16 @@
+[
+    "name",
+    "description",
+    "keywords",
+    "version",
+    "homepage",
+    "repository",
+    "bugs",
+    "bin",
+    "main",
+    "dist",
+    "directories",
+    "dependencies",
+    "devDependencies",
+    "peerDependencies"
+]
