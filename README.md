@@ -1,7 +1,7 @@
-PAC
+pack
 ===
 
-# package.json automatic configurator
+# A tool to sync local package.json files from a master one
 
 Automatically configures a package.json file from another. This is allows you to
 keep a master copy of a package.json file and keep other package.json files in
@@ -10,14 +10,14 @@ multiple projects.
 
 ## Setup
 
-Include a `.pacrc` file in the same directory as the `package.json` you want to
+Include a `.packrc` file in the same directory as the `package.json` you want to
 sync. The file can be in JSON or INI format. See
 [node-config](https://github.com/lorenwest/node-config) for other ways to
 specify the config file.
 
-### `.pacrc`
+### `.packrc`
 
-The `.pacrc` file tells PAC where to pull the master `package.json` file from.
+The `.packrc` file tells `pack` where to pull the master `package.json` file from.
 It can come from either a published npm module or a Github repository.
 
 #### npm
@@ -105,7 +105,7 @@ keys, if a key is not in the whitelist then it will not be included at all.
 
 ## Usage
 
-> npx @jasonmorganson/pac
+> npx @jasonmorganson/pack
 
 This will update the package.json in the directory its run in with the
 properties from the master package.json file.

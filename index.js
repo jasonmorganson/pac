@@ -9,7 +9,7 @@ const defaults = {
     whitelist: require('./whitelist.json'),
     blacklist: require('./blacklist.json')
 }
-const config = rc('pac', defaults)
+const config = rc('pack', defaults)
 const {log} = console
 const {exit} = process
 const {npm, github, whitelist, blacklist} = config

@@ -1,5 +1,5 @@
 {
-  "name": "pac",
+  "name": "@jasonmorganson/pack",
   "version": "1.0.0",
   "description": "package.json automatic configurator",
   "main": "index.js",
